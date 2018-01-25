@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to React Todo-List</h1>
+          <h1 className="App-title">My React Todo-List</h1>
         </header>
 
         <br/>
