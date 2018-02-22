@@ -18,30 +18,35 @@ a:hover {
   text-decoration: underline;
 }
 
-div {
-  margin-top: 13%;
+.container {
+  height: 100%;
+}
+
+nav ul li {
+  float: left;
+  padding-right: 25px;
 }
 
 #top-nav {
-  position: absolute;
+  position: relative;
   top: 20px;
   right: 15px;
   line-height: 30px;
 }
 
-#top-nav ul li img {
-  padding-top: 22px;
+.align-right li img {
+  padding-top: 5px;
   cursor: pointer;
 }
 
-#top-nav ul li img:hover {
+.align-right li img:hover {
   color: black;
 }
 
 #sign-in-btn {
   background-color: #3270F4;
   color: #ffffff;
-  padding: 1px 10px;
+  padding: 1px 12px;
   border: 0 solid #3270F4;
   border-radius: 2px;
   font-weight: 700;
@@ -52,21 +57,26 @@ div {
   outline: none;
 }
 
-img {
+.main-content img {
   position: relative;
-  left: 40%;
-  bottom: 15px;
+  left: 28%;
+  margin-top: 14.5%;
 }
 
 input {
-  padding: 12px;
-  border-radius: 0.2em;
-  border: 1px solid #d2d2d2;
-  border-bottom: 2px solid #d2d2d2;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 45%;
+  padding: 1%;
+  margin-top: 2%;
+  border: 1px solid #d2d2d2;
+  border-bottom: 2px solid #d2d2d2;
+  border-radius: 0.2em;
+  background: url(img/icon.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 45px;
 }
 
 input:focus {
@@ -84,12 +94,15 @@ input:-webkit-autofill {
 }
 
 .button-style {
-  margin-left: 40%;
-  margin-top: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  margin-top: 1%;
 }
 
 .button-style .main-button {
-  padding: 3px 10px;
+  padding: 3px 12px;
   margin-right: 5px;
   background-color: #f0f0f0;
   border: none;
@@ -111,12 +124,11 @@ input:-webkit-autofill {
 
 div p {
   text-align: center;
-  padding-top: 20px;
-  margin-bottom: 10%;
   color: #222222;
   font-size: 13px;
   line-height: 28px;
   font-weight: 400;
+  margin-top: 1.5%;
 }
 
 div p a {
@@ -124,14 +136,17 @@ div p a {
   padding-left: 5px;
 }
 
-nav ul li {
-  float: left;
-  padding-right: 25px;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .btm-nav-bg-color {
+  position: relative;
+  top: 17%;
   background-color: #f0f0f0;
-  height: 30px;
+  height: 31px;
   padding-top: 10px;
   border-top: 1px solid #d3d3d3;
   font-size: 13px;
